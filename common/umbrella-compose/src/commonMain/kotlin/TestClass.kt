@@ -1,0 +1,1 @@
+class TestClass {    fun getString():String = "Hello Platform"}

@@ -30,3 +30,6 @@ include(":common:showcase:data")
 include(":common:showcase:presentation")
 
 include(":common:core")
+
+include("common:umbrella-ios") //это для обобщеный блок зависимостей иосовских
+include("common:umbrella-compose") //это для обобщеный блок зависимостей андроидовских
