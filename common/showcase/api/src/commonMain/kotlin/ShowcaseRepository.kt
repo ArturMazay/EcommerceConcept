@@ -1,0 +1,1 @@
+import models.Productsinterface ShowcaseRepository {    suspend fun getAllProducts(): Products}

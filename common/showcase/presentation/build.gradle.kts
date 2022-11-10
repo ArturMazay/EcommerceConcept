@@ -1,0 +1,1 @@
+plugins {    id("multiplatform-setup")    id("android-setup")}kotlin{    sourceSets{        commonMain{            dependencies {                api(project(":common:showcase:api"))                implementation(Dependencies.Other.ViewModel.core)            }        }    }}
