@@ -6,7 +6,9 @@ buildscript {
     }
     dependencies {
         classpath(Dependencies.Kotlin.gradlePlugin)
-        classpath("com.android.tools.build:gradle:7.2.1")
+        classpath(Dependencies.Other.MultiplatformResources.gradlePlugin)
+
+        classpath("com.android.tools.build:gradle:7.2.2")
     }
 }
 

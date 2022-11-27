@@ -1,0 +1,1 @@
+package screens.showcase.modelsdata class HotSalesItem(    val id: Int,    val title: String,    val subTitle: String,    val picture: Int)

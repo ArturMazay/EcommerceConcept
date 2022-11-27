@@ -1,0 +1,1 @@
+package screens.showcase.modelsdata class CategoryItem(    val id: Int,    val title: String,    val icon: Int,    val isSelected: Boolean,)

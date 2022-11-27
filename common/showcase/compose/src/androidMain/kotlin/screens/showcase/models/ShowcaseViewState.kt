@@ -1,0 +1,1 @@
+package screens.showcase.modelsimport models.BestSellerimport models.HomeStoredata class ShowcaseViewState(    val bestSellers: List<BestSeller?>? = listOf(),    val homeStore: List<HomeStore?>? = listOf(),    val isLoading: Boolean = false)

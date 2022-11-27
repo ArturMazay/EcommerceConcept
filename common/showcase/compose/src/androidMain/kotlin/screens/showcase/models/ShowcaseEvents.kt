@@ -1,0 +1,1 @@
+package screens.showcase.modelssealed class ShowcaseEvents {    object LoadAllProducts: ShowcaseEvents()}
